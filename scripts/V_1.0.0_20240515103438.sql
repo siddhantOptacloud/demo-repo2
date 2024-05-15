@@ -1,0 +1,1 @@
+CREATE TABLE product_audit (audit_id integer, category character varying(50), deleted_at timestamp without time zone, product_id integer, product_name character varying(100), CONSTRAINT product_audit_pkey PRIMARY KEY (audit_id, category, deleted_at, product_id, product_name));
