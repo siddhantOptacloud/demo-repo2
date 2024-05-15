@@ -1,0 +1,1 @@
+CREATE TABLE employees_audit (audit_id integer, audit_timestamp timestamp without time zone, employee_id integer, hire_date date, name character varying(100), operation character varying(10), position character varying(100), salary numeric(10,2), CONSTRAINT employees_audit_pkey PRIMARY KEY (audit_id, audit_timestamp, employee_id, hire_date, name, operation, position, salary));
